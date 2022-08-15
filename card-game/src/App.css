@@ -26,6 +26,20 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.inV {
+  display: none;
+}
+
+.winGame {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.attm{
+  display: flex;
+  margin-left: 10px ;
+}
 
 .card {
   display: inline-block;

@@ -1,15 +1,17 @@
-import React from 'react';
-import './App.css';
 import WordCard from './WordCard';
+import './App.css';
+import _ from 'lodash'
 
-const word = "Hello";
+
 function App() {
- return (
 
-  <div>
-    <WordCard value={word}/>
-  </div>
- );
+  const word = ["hello","goal","dream","opportunity","happy","grow"];
+  const randomElement = _.sample(word);
+
+  return ( 
+    <div class>
+      <WordCard value={randomElement}/>
+    </div>
+  );
 }
-
-export default App; 
+export default App;

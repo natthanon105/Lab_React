@@ -3,10 +3,23 @@
   margin:20px;
 }
 /*header*/
+.head {
+  display: flex;
+  justify-content: center;
+  background-color:aqua;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
 
 /*main game */
+.contain {
+  background-color: plum;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
 .mainGame {
-  border-radius: 10px;
   background-color: plum;
   display: flex;
   box-sizing: border-box;
@@ -17,6 +30,7 @@
 .card {
   display: inline-block;
   text-align: center;
+  ursor: pointer;
   background-color: white;
   border-radius: 3px;
   width: 3em;
@@ -26,9 +40,16 @@
   user-select: none;
 }
 
-.activeCard {
-  color: red;
-  background: pink;
-} 
+.btnRe {
+  border:none;
+  cursor: pointer;
+  height: 3em;
+  border-radius: 5px;
+  margin: 4px;
+  background-color: white;
+}
 
-/*footer*/ 
+.btnRe:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:linen;
+}

@@ -1,18 +1,34 @@
+/*game*/
+.game {
+  margin:20px;
+}
+/*header*/
+
 /*main game */
 .mainGame {
-  background-color: red;
+  border-radius: 10px;
+  background-color: plum;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .card {
   display: inline-block;
   text-align: center;
+  background-color: white;
+  border-radius: 3px;
   width: 3em;
   font-size: 2em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 1em;
+  margin: 0.8em;
   user-select: none;
 }
+
 .activeCard {
   color: red;
   background: pink;
-}  
+} 
+
+/*footer*/ 

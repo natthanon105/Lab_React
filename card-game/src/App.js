@@ -9,8 +9,8 @@ function App() {
   const randomElement = _.sample(word);
 
   return ( 
-    <div class>
-      <WordCard value={randomElement}/>
+    <div className="game">
+        <WordCard value={randomElement}/>
     </div>
   );
 }

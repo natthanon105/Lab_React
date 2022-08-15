@@ -1,6 +1,7 @@
 /*game*/
 .game {
-  margin:20px;
+  margin:20px auto auto;
+  max-width: 1025px;
 }
 /*header*/
 .head {
@@ -44,7 +45,7 @@
 .card {
   display: inline-block;
   text-align: center;
-  ursor: pointer;
+  cursor: pointer;
   background-color: white;
   border-radius: 3px;
   width: 3em;
@@ -67,3 +68,29 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color:linen;
 }
+/*footer*/
+
+@media screen and (max-width:1025px){
+  .game {
+      margin: 20px;
+  }
+}
+
+@media screen and (max-width:718px){
+  .game {
+      margin: 0;
+  }
+
+  .head {
+      margin-bottom: 0;
+      border-radius: 0;
+      border-style: solid;
+      border-width: 2px;
+  }
+
+  .contain {
+      border-radius: 0;
+      border-style: solid;
+      border-width: 0 2px 2px;
+  }
+} 
